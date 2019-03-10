@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <Button
+        android:id="@+id/bt_dialogfragment_common"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="普通对话框" />
+
+    <Button
+        android:id="@+id/bt_dialogfragment_edit"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+        android:text="可编辑对话框" />
+
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/bt_dialogfragment_screen_adaption"
+        android:text="可屏幕适配的对话框" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/bt_dialogfragment_login"
+        android:text="可编辑的登录对话框，旋转后信息不会丢失" />
+
+
+
+    <FrameLayout
+        android:id="@+id/fragment"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"></FrameLayout>
+</LinearLayout>

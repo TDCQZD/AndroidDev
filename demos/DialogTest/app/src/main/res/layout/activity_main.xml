@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.example.administrator.dialogtest.MainActivity">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="Android对话框集"
+        android:textSize="30dp" />
+    <Button
+        android:id="@+id/bt_dialog_common"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="普通双按钮对话框"
+        tools:layout_editor_absoluteX="-10dp"
+        tools:layout_editor_absoluteY="16dp" />
+    <Button
+        android:id="@+id/bt_dialog_more_common"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="普通多按钮对话框"
+        tools:layout_editor_absoluteX="-10dp"
+        tools:layout_editor_absoluteY="16dp" />
+    <Button
+        android:id="@+id/bt_dialog_list"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="列表对话框"
+        tools:layout_editor_absoluteX="79dp"
+        tools:layout_editor_absoluteY="16dp" />
+
+    <Button
+        android:id="@+id/bt_dialog_sigle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="单选对话框"
+        tools:layout_editor_absoluteX="167dp"
+        tools:layout_editor_absoluteY="16dp" />
+
+    <Button
+        android:id="@+id/bt_dialog_checkbox"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="多选对话框"
+        tools:layout_editor_absoluteX="263dp"
+        tools:layout_editor_absoluteY="16dp" />
+
+    <Button
+        android:id="@+id/bt_dialog_progress"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="进度对话框"
+        tools:layout_editor_absoluteX="-1dp"
+        tools:layout_editor_absoluteY="71dp" />
+    <Button
+        android:id="@+id/bt_dialog_wait"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="等待对话框"
+        tools:layout_editor_absoluteX="88dp"
+        tools:layout_editor_absoluteY="71dp" />
+    <Button
+        android:id="@+id/bt_dialog_input"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="输入对话框"
+        tools:layout_editor_absoluteX="167dp"
+        tools:layout_editor_absoluteY="71dp" />
+
+    <Button
+        android:id="@+id/bt_dialog_custom"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="自定义对话框"
+        tools:layout_editor_absoluteX="88dp"
+        tools:layout_editor_absoluteY="71dp" />
+
+    <Button
+        android:id="@+id/bt_dialog_fagment"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="DialogFragment 创建对话框"
+        tools:layout_editor_absoluteX="88dp"
+        tools:layout_editor_absoluteY="71dp" />
+
+</LinearLayout>

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.example.zhangdai.projectguideview.MainActivity">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="引导界面整理" />
+    <Button
+        android:id="@+id/bt_single_page"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="单张图片引导界面"/>
+    <Button
+        android:id="@+id/bt_rotate_animation"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="动画引导界面"/>
+</LinearLayout>

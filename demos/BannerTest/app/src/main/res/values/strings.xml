@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">"BannerTest "</string>
+    <string name="situationOne">ScrollView嵌套banner</string>
+</resources>

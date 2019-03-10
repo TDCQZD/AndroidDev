@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/ServiceTest.iml" filepath="$PROJECT_DIR$/ServiceTest.iml" />
+      <module fileurl="file://$PROJECT_DIR$/alarmmanager/alarmmanager.iml" filepath="$PROJECT_DIR$/alarmmanager/alarmmanager.iml" />
+      <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
+      <module fileurl="file://$PROJECT_DIR$/audiotest/audiotest.iml" filepath="$PROJECT_DIR$/audiotest/audiotest.iml" />
+      <module fileurl="file://$PROJECT_DIR$/smsmanager/smsmanager.iml" filepath="$PROJECT_DIR$/smsmanager/smsmanager.iml" />
+      <module fileurl="file://$PROJECT_DIR$/telephonymanager/telephonymanager.iml" filepath="$PROJECT_DIR$/telephonymanager/telephonymanager.iml" />
+      <module fileurl="file://$PROJECT_DIR$/vibratortest/vibratortest.iml" filepath="$PROJECT_DIR$/vibratortest/vibratortest.iml" />
+    </modules>
+  </component>
+</project>

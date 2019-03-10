@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.example.administrator.mediaplayerproject.activity.MainActivity">
+    <!--Fragment-->
+    <FrameLayout
+        android:id="@+id/fragment"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1" />
+
+    <!--底部的RadioGroup,包含RadioButton -->
+    <RadioGroup
+        android:id="@+id/rg_main"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#11000000"
+        android:gravity="center_vertical"
+        android:orientation="horizontal"
+        android:padding="5dp">
+
+        <RadioButton
+            android:id="@+id/rb_fragme_local_video"
+            style="@style/bottom_tag_style"
+            android:drawableTop="@drawable/rb_fragme_localvideo_drawable_selector"
+            android:text="本地视频" />
+
+        <RadioButton
+            android:id="@+id/rb_fragme_net_video"
+            style="@style/bottom_tag_style"
+            android:drawableTop="@drawable/rb_fragme_netvideo_drawable_selector"
+            android:text="网络视频" />
+
+        <RadioButton
+            android:id="@+id/rb_fragme_live"
+            style="@style/bottom_tag_style"
+            android:drawableTop="@drawable/rb_fragme_live_drawable_selector"
+            android:text="直播" />
+        <RadioButton
+            android:id="@+id/rb_fragme_person"
+            style="@style/bottom_tag_style"
+            android:drawableTop="@drawable/rb_fragme_me_drawable_selector"
+            android:text="我的" />
+    </RadioGroup>
+
+</LinearLayout>

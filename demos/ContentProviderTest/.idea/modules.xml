@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/ContentProviderTest.iml" filepath="$PROJECT_DIR$/ContentProviderTest.iml" />
+      <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
+      <module fileurl="file://$PROJECT_DIR$/contactprovider/contactprovider.iml" filepath="$PROJECT_DIR$/contactprovider/contactprovider.iml" />
+      <module fileurl="file://$PROJECT_DIR$/dictprovider/dictprovider.iml" filepath="$PROJECT_DIR$/dictprovider/dictprovider.iml" />
+      <module fileurl="file://$PROJECT_DIR$/dictresolver/dictresolver.iml" filepath="$PROJECT_DIR$/dictresolver/dictresolver.iml" />
+      <module fileurl="file://$PROJECT_DIR$/mediaprovider/mediaprovider.iml" filepath="$PROJECT_DIR$/mediaprovider/mediaprovider.iml" />
+      <module fileurl="file://$PROJECT_DIR$/monitorsms/monitorsms.iml" filepath="$PROJECT_DIR$/monitorsms/monitorsms.iml" />
+      <module fileurl="file://$PROJECT_DIR$/provider/provider.iml" filepath="$PROJECT_DIR$/provider/provider.iml" />
+    </modules>
+  </component>
+</project>

@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.example.zhangdai.androidjson.MainActivity">
+
+    <Button
+        android:id="@+id/json"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="手动解析JSON"
+        android:textAllCaps="false" />
+
+    <Button
+        android:id="@+id/GSON"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="解析GSON"
+        android:textAllCaps="false" />
+
+    <Button
+        android:id="@+id/FastJson"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="解析FastJson"
+        android:textAllCaps="false" />
+
+    <Button
+        android:id="@+id/NetWoekJson"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="解析网络JSON数据"
+        android:textAllCaps="false" />
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="dom"
+        android:text="XML解析——DOM"
+        android:textAllCaps="false" />
+
+    <Button
+        android:id="@+id/button3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="pull"
+        android:text="XML解析——Pull"
+        android:textAllCaps="false" />
+
+    <Button
+        android:id="@+id/button4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="sax"
+        android:text="XML解析——SAX"
+        android:textAllCaps="false" />
+</LinearLayout>

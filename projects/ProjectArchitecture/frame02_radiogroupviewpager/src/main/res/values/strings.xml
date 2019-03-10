@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">项目框架02_微信</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="chat">微信</string>
+    <string name="contacts">通讯录</string>
+    <string name="discovery">发现</string>
+    <string name="me">我</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>

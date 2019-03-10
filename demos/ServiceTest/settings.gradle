@@ -1,0 +1,1 @@
+include ':app', ':telephonymanager', ':smsmanager', ':audiotest', ':vibratortest', ':alarmmanager'

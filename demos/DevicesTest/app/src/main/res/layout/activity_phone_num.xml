@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <Button
+        android:id="@+id/bt_phone_num"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="获取双卡手机号码" />
+
+    <TextView
+        android:id="@+id/tv_show1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="卡1号码" />
+
+    <TextView
+        android:id="@+id/tv_show2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="卡2号码" />
+</LinearLayout>

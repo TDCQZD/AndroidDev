@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/ProjectArchitecture.iml" filepath="$PROJECT_DIR$/ProjectArchitecture.iml" />
+      <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
+      <module fileurl="file://$PROJECT_DIR$/frame01_fragmentradiogroup/frame01_fragmentradiogroup.iml" filepath="$PROJECT_DIR$/frame01_fragmentradiogroup/frame01_fragmentradiogroup.iml" />
+      <module fileurl="file://$PROJECT_DIR$/frame02_radiogroupviewpager/frame02_radiogroupviewpager.iml" filepath="$PROJECT_DIR$/frame02_radiogroupviewpager/frame02_radiogroupviewpager.iml" />
+      <module fileurl="file://$PROJECT_DIR$/frame03_fragmenttabhost/frame03_fragmenttabhost.iml" filepath="$PROJECT_DIR$/frame03_fragmenttabhost/frame03_fragmenttabhost.iml" />
+    </modules>
+  </component>
+</project>

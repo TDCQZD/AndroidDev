@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.example.administrator.listviewtest.MainActivity">
+
+    <include layout="@layout/titlebar" />
+
+
+
+    <Button
+        android:id="@+id/bt_arrayAdapter"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="ArrayAdapter"
+        android:textAllCaps="false" />
+
+    <Button
+        android:id="@+id/bt_simpleAdapter"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="SimpleAdapter"
+        android:textAllCaps="false" />
+
+    <Button
+        android:id="@+id/bt_baseAdapter"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="BaseAdapter"
+        android:textAllCaps="false" />
+
+    <Button
+        android:id="@+id/bt_adapter"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="万能适配器" />
+
+    <Button
+        android:id="@+id/bt_delete_item"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="侧滑删除Item"
+        android:textAllCaps="false" />
+
+    <Button
+        android:id="@+id/bt_linkage"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="ListView联动"
+        android:textAllCaps="false" />
+
+    <Button
+    android:id="@+id/bt_listview_zoom"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:text="可缩放的ListView"
+    android:textAllCaps="false" />
+    <Button
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="ExpandableListview"
+        android:text="可扩展的ListView"
+        android:textAllCaps="false" />
+
+    <Button
+        android:id="@+id/bt_listview_refresh"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="ListView刷新"
+        android:textAllCaps="false" />
+</LinearLayout>

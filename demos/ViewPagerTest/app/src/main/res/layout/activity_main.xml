@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.example.administrator.viewpagertest.MainActivity">
+
+    <Button
+        android:id="@+id/bt_use"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="Use"
+        android:text="ViewPager简单使用"
+        android:textAllCaps="false" />
+
+    <Button
+        android:id="@+id/bt_ad_roation"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="AdRotation"
+        android:text="ViewPager广告轮播图"
+        android:textAllCaps="false" />
+
+    <Button
+        android:id="@+id/bt_guide"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="Guide"
+        android:text="ViewPager引导页"
+        android:textAllCaps="false" />
+
+</LinearLayout>

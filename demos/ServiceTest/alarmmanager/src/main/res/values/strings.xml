@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">AlarmManager</string>
+    <!--<string name="app_name">闹铃测试</string>-->
+    <string name="setTime">设置闹铃</string>
+    <!--<string name="app_name">定时更换壁纸</string>-->
+    <string name="start">启动定时更换</string>
+    <string name="stop">停止定时更换</string>
+</resources>

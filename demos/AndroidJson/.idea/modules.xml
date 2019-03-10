@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/AndroidJson.iml" filepath="$PROJECT_DIR$/AndroidJson.iml" />
+      <module fileurl="file://$PROJECT_DIR$/OkHttpUtils-master/OkHttpUtils-master.iml" filepath="$PROJECT_DIR$/OkHttpUtils-master/OkHttpUtils-master.iml" />
+      <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
+      <module fileurl="file://$PROJECT_DIR$/okhttpserver/okhttpserver.iml" filepath="$PROJECT_DIR$/okhttpserver/okhttpserver.iml" />
+      <module fileurl="file://$PROJECT_DIR$/okhttputils/okhttputils.iml" filepath="$PROJECT_DIR$/okhttputils/okhttputils.iml" />
+      <module fileurl="file://$PROJECT_DIR$/okhttputils_library/okhttputils_library.iml" filepath="$PROJECT_DIR$/okhttputils_library/okhttputils_library.iml" />
+    </modules>
+  </component>
+</project>

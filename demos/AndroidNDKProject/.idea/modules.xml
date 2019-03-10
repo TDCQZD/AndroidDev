@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/AndroidNDKProject.iml" filepath="$PROJECT_DIR$/AndroidNDKProject.iml" />
+      <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ccalljava/ccalljava.iml" filepath="$PROJECT_DIR$/ccalljava/ccalljava.iml" />
+      <module fileurl="file://$PROJECT_DIR$/guolu/guolu.iml" filepath="$PROJECT_DIR$/guolu/guolu.iml" />
+      <module fileurl="file://$PROJECT_DIR$/javacallsc/javacallsc.iml" filepath="$PROJECT_DIR$/javacallsc/javacallsc.iml" />
+      <module fileurl="file://$PROJECT_DIR$/mtxx/mtxx.iml" filepath="$PROJECT_DIR$/mtxx/mtxx.iml" />
+    </modules>
+  </component>
+</project>

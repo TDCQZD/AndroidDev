@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.example.administrator.bannertest.MainActivity">
+
+
+    <com.youth.banner.Banner
+        android:id="@+id/banner"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"></com.youth.banner.Banner>
+
+
+    <Button
+        android:id="@+id/bt_banner_base"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="BannerBase"
+        android:text="简单使用" />
+
+    <Button
+        android:id="@+id/bt_banner_detailed"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="BannerDetailed"
+        android:text="详细使用" />
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="BannerListview"
+        android:text="ListView中使用"
+        android:textAllCaps="false" />
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="BannerAnimation"
+        android:text="banner动画预览"
+        android:textAllCaps="false" />
+
+    <Button
+        android:id="@+id/button3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="BannerStyle"
+        android:text="banner内置样式预览"
+        android:textAllCaps="false" />
+
+    <Button
+        android:id="@+id/button4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="BannerIndicator"
+        android:text="banner指示器位置设置预览"
+        android:textAllCaps="false" />
+
+    <Button
+        android:id="@+id/button5"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="bannerCustomize"
+        android:text="banner自定义样式方法预览"
+        android:textAllCaps="false" />
+
+    <Button
+        android:id="@+id/button6"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="CustomViewPager"
+        android:text="自定义ViewPager"
+        android:textAllCaps="false" />
+
+
+</LinearLayout>

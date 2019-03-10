@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.example.zhangdai.recyclerviewtest.activity.MainActivity">
+
+    <Button
+        android:id="@+id/bt_basis_usage"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="通用用法" />
+
+    <Button
+        android:id="@+id/bt_universal_adapter"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="万能适配器" />
+
+    <Button
+        android:id="@+id/bt_reclerview_refesh"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="RecyclerView刷新"
+        android:textAllCaps="false" />
+
+    <Button
+        android:id="@+id/bt_extend"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="扩展用法" />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="BaseRecyclerViewAdapterHelper"
+        android:text="BaseRecyclerViewAdapterHelper库使用"
+        android:textAllCaps="false" />
+</LinearLayout>
